@@ -1,1 +1,6 @@
-ZEXPAND -- to execute a long command in ISPF use ZEXPAND and write the command in the POP UP panel. If it has been activated on the system.
+ZEXPAND  -- to execute a long command in ISPF use ZEXPAND and write the command in the POP UP panel. If it has been activated on the system.
+ISPDPTRC -- this command is issued in 6 and it would start captring the trace of panels that we would use.
+            Once you have used the panels to test re-issue the command to end the tace and display the resuts.
+ISPSTART -- command displays the default primary panel specified in the DEFAULT_PRIMARY_PANEL keyword in the ISPF configuration table. 
+            This keyword is typically set to ISP@MSTR.            
+            
